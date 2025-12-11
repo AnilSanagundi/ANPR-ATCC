@@ -1,0 +1,49 @@
+import pypandoc
+
+readme_text = """# 🚦 Automatic Traffic Counting & Classification (ATCC) System  
+### **Using YOLOv8 + Streamlit Dashboard**  
+### **Author: Anil S — RV University**
+
+---
+
+## 📌 **Project Overview**
+This project implements an **Automatic Traffic Counting & Classification (ATCC)** system using **YOLOv8**.  
+It processes video streams, detects vehicles, tracks them, and generates analytical reports with a **Streamlit dashboard**.
+
+---
+
+## 🎯 **Key Features**
+### **YOLOv8-Based Detection**
+- Detects vehicles such as:
+  - Car  
+  - Bus  
+  - Truck  
+  - Motorbike  
+  - Bicycle  
+- Saves detection-annotated frames for verification.
+
+### **Vehicle Tracking**
+- Assigns a unique Track ID to each vehicle.
+- Tracks movement frame-by-frame.
+
+### **Streamlit Dashboard**
+- Interactive analytics dashboard showing:
+  - 📊 Vehicle class distribution (Bar chart)
+  - 📈 Vehicle count over time (Line chart)
+  - 🔵 Centroid movement across frames (Scatter plot)
+  - 📝 Detailed frame-by-frame table
+- Displays **sample detection images** from `outputs/images/`.
+
+---
+
+## 📁 **Project Structure**
+
+ATCC/
+│── process_videos.py
+│── streamlit_app/
+│ └── app.py
+│── outputs/
+│ ├── csvs/
+│ ├── summaries/
+│ └── images/
+└── README.md

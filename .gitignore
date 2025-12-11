@@ -1,0 +1,31 @@
+# Virtual environment
+anpr_env/
+venv/
+
+# Model weights
+*.pt
+*.onnx
+
+# Training dataset
+training/dataset/
+training/train/
+training/val/
+
+# Cache
+__pycache__/
+*.cache
+*.log
+
+# Streamlit uploads
+uploads/
+
+# Outputs
+outputs/*.csv
+outputs/*.txt
+outputs/*.json
+
+# YOLO runs folder
+runs/
+
+# VS Code settings
+.vscode/

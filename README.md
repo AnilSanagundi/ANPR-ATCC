@@ -1,68 +1,67 @@
-# 🚗 Automatic Number Plate Recognition (ANPR) System
-### **Author: Anil S — RV University**
+📘 Computer Vision Projects — ANPR & ATCC
+Author: Anil S — RV University
+🚗 1️⃣ Automatic Number Plate Recognition (ANPR) System
+📌 Project Overview
 
----
+The ANPR system automatically detects and recognizes vehicle number plates from images or videos.
+It leverages OpenCV for preprocessing and OCR for text extraction, generating structured and exportable results.
 
-## 📌 **Project Overview**
-The ANPR system automatically detects and recognizes vehicle number plates in images and videos.  
-It uses **OpenCV** for preprocessing and **OCR** for text recognition, generating structured data outputs.
+🎯 Key Features
 
----
+🔍 Automatic plate detection using contour & thresholding
 
-## 🎯 **Key Features**
-- Vehicle number plate detection
-- Optical Character Recognition (OCR)
-- Streamlit dashboard for viewing results
-- CSV output of recognized plates
-- Batch processing of multiple images/videos
-- Optional visualization of detected plates
+🔠 OCR-based text recognition
 
----
+🖥️ Streamlit dashboard visualization
 
----
+📂 Batch processing of images/videos
 
-## 2️⃣ **ATCC README.md**
+📄 CSV export of recognized number plates
 
-*(Already generated in the previous step, now listed here for completeness)*
+🖼️ Optional bounding-box visualization
 
-```markdown
-# 🚦 Automatic Traffic Counting & Classification (ATCC) System  
-### **Using YOLOv8 + Streamlit Dashboard**  
-### **Author: Anil S — RV University**
+🚦 2️⃣ Automatic Traffic Counting & Classification (ATCC) System
+Using YOLOv8 + Streamlit Dashboard
+📌 Project Overview
 
----
+The ATCC system uses YOLOv8 for detection and classification of vehicles in video streams.
+It tracks each vehicle, logs counts, and provides an interactive analytics dashboard.
 
-## 📌 **Project Overview**
-This project implements an **Automatic Traffic Counting & Classification (ATCC)** system using **YOLOv8**.  
-It processes video streams, detects vehicles, tracks them, and generates analytical reports with a **Streamlit dashboard**.
+🎯 Key Features
+🧠 YOLOv8 Detection
 
----
+Detects vehicle classes including:
 
-## 🎯 **Key Features**
-### **YOLOv8-Based Detection**
-- Detects vehicles such as:
-  - Car  
-  - Bus  
-  - Truck  
-  - Motorbike  
-  - Bicycle  
-- Saves detection-annotated frames for verification.
+Car
 
-### **Vehicle Tracking**
-- Assigns a unique Track ID to each vehicle.
-- Tracks movement frame-by-frame.
+Truck
 
-### **Streamlit Dashboard**
-- Interactive analytics dashboard showing:
-  - 📊 Vehicle class distribution (Bar chart)
-  - 📈 Vehicle count over time (Line chart)
-  - 🔵 Centroid movement across frames (Scatter plot)
-  - 📝 Detailed frame-by-frame table
-- Displays **sample detection images** from `outputs/images/`.
+Bus
 
----
+Motorbike
 
-## 📁 **Project Structure**
+Bicycle
 
+Annotated detection frames are saved for verification.
 
+🛰️ Vehicle Tracking
 
+Unique Track ID per vehicle
+
+Tracks movement across frames
+
+Records speed & direction (optional)
+
+📊 Streamlit Dashboard
+
+Interactive dashboard showing:
+
+Vehicle class distribution (Bar chart)
+
+Vehicle count over time (Line graph)
+
+Centroid movement (Scatter plot)
+
+Frame-by-frame detection table
+
+Sample images from outputs/images/
